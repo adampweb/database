@@ -1,5 +1,5 @@
 {
-    "name": "opis/database",
+    "name": "adampweb/database",
     "description": "A database abstraction layer over PDO, that provides a powerful and intuitive query builder, bundled with an easy to use schema builder",
     "keywords": ["database", "query", "abstraction layer", "mysql", "postgre", "sql", "sqlite",  "query builder", "schema builder"],
     "homepage": "https://opis.io/database",
@@ -18,7 +18,7 @@
       "test": "vendor/bin/phpunit"
     },
     "require": {
-        "php": "^8.*",
+        "php": "^8.0",
         "ext-pdo": "*"
     },
     "require-dev": {
@@ -37,7 +37,7 @@
     },
     "extra": {
         "branch-alias": {
-            "dev-master": "4.1.x-dev"
+            "dev-master": "4.2.2-dev"
         }
     }
 }
